@@ -17,7 +17,7 @@ c) ¿Cuál es el número total de géneros si se suman todos los que aparezcan (
 
 func main() {
 	var baseUrl string
-	flag.StringVar(&baseUrl, "url", "http://localhost:8080/api/reto03", "url base de la api para el reto")
+	flag.StringVar(&baseUrl, "url", "https://ninjascrapers-production.up.railway.app/api/reto03", "url base de la api para el reto")
 	flag.Parse()
 
 	cliente := http.Client{
