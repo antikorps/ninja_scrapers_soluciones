@@ -1,7 +1,7 @@
 import requests
 import time
 
-URL_BASE = "http://localhost:8080/api/reto03"
+URL_BASE = "https://ninjascrapers-production.up.railway.app/api/reto03"
 CABECERAS = {
     "User-Agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0",
 	"Accept-Language": "es-ES:en;q=0.5",
